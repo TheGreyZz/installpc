@@ -114,6 +114,10 @@ choco install treesizefree --version 4.5.3 -y
 
 $blablabla.Speak("L'installation de TreeSize à été effectué")
 
+choco install tightvnc
+
+$blablabla.Speak("L'installation de VNC à été effectué")
+
 choco install dotnet3.5 --version 3.5.20160716 -y
 
 $blablabla.Speak("L'installation de Dotnet 3 point 5 à été effectué puis à été activé")
