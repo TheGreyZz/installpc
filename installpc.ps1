@@ -201,7 +201,7 @@ if (Test-Path $env:SystemRoot\Logs\CBS\DeepClean.log) {
     $UpdateCleanupSuccessful = Select-String -Path $env:SystemRoot\Logs\CBS\DeepClean.log -Pattern 'Total size of superseded packages:' -Quiet
 }
 
-######clean DD########
+######clean DD##########
 
 $blablabla.Speak("Le changement du nom de poste a été modifié en tant que PC Utilisateur, l'ordinateur va reboot. Je te laisse faire la suite")
 
